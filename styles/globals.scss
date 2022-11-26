@@ -1,3 +1,10 @@
+$enable-shadows: true;
+$primary: rgb(0, 19, 223);
+
+
+$body-color:  #333;
+$body-bg: #fff;
+
 html,
 body {
   padding: 0;
@@ -24,3 +31,5 @@ a {
     background: black;
   }
 }
+
+@import "~bootstrap/scss/bootstrap.scss";
