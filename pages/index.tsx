@@ -1,4 +1,4 @@
-import NavBar from "../components/layout/navBar";
+import Navigation from "../components/layout/navigation";
 import Head from 'next/head';
 export default function Home() {
     return (
@@ -6,7 +6,7 @@ export default function Home() {
             <Head>
                 <title>Lawyer App</title>
             </Head>
-            <NavBar/>
+            <Navigation/>
             <main>
                 hello
             </main>

@@ -2,13 +2,12 @@ import Link from "next/link";
 import Image from "next/image";
 
 
-function NavBar() {
+function Navigation() {
     return (
         <div className="container-fluid">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container">
-
-                    <div className="collapse navbar-collapse" id="navbarNav">
+                    <div className="collapse navbar-collapse align-items-center" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#">Home</a>
@@ -22,6 +21,9 @@ function NavBar() {
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Services</a>
                             </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">Contact me</a>
+                            </li>
                         </ul>
                     </div>
                     <Link href="/" legacyBehavior>
@@ -31,9 +33,8 @@ function NavBar() {
                     </Link>
                 </div>
             </nav>
-
         </div>
     )
 }
 
-export default NavBar;
+export default Navigation;
