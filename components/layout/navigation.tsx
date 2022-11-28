@@ -1,11 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
+import styles from "/styles/Navigation.module.scss";
 
 
 function Navigation() {
     return (
         <div className="container-fluid">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className={`${styles.header} navbar navbar-expand-lg`}>
                 <div className="container">
                     <div className="collapse navbar-collapse align-items-center" id="navbarNav">
                         <ul className="navbar-nav">

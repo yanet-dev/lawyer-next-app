@@ -15,7 +15,10 @@ body {
 :root{
   --mt-white: #F1F0EB;
   --mt-dark-blue : #236B7D;
-  --mt-dark-black :#07080A
+  --mt-dark-black :#07080A;
+  --mt-blue: #ebf3f5;
+  --mt-light-blue: #B2DADA;
+  --mt-golden-yellow: #ABA608;
 }
 
 @import "~bootstrap/scss/bootstrap.scss";
