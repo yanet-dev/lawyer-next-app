@@ -1,0 +1,37 @@
+.footer {
+  background-color: var(--mt-dark-blue);
+  color: var(--mt-light-blue);
+
+  .headingLabel {
+    color: var(--mt-white);
+  }
+
+  .footerSocialMedia {
+    width: 6.2rem;
+    height: 6.2rem;
+    padding: 0.62rem;
+    border: 0.12rem solid transparent;
+    border-radius: 50%;
+    background-color: var(--mt-blue);
+    color: var(--mt-golden-yellow);
+    text-align: center;
+    line-height: 3.75rem;
+    vertical-align: middle;
+    transition-duration: .3s;
+    transition-timing-function: ease-in;
+
+    &:hover {
+      border: 0.12rem solid var(--mt-golden-yellow);
+      color: var(--mt-dark-blue);
+    }
+
+    .footerSocialIcon {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+
+
+
+

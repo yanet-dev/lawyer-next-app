@@ -1,0 +1,25 @@
+$enable-shadows: true;
+$primary: rgb(0, 19, 223);
+
+
+$body-color: #333;
+$body-bg: #fff;
+
+html,
+body {
+  line-height: 1.15;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+:root {
+  --mt-white: #F1F0EB;
+  --mt-dark-blue: #236B7D;
+  --mt-dark-black: #07080A;
+  --mt-blue: #ebf3f5;
+  --mt-light-blue: #B2DADA;
+  --mt-golden-yellow: #ABA608;
+  --mt-gray-blue: #4d8491;
+}
+
+@import "~bootstrap/scss/bootstrap.scss";
